@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 17 10:27:18 2019
-
-@author: LIG
-"""
-
 import pandas as pd
 import pyfpgrowth as fpg
 
