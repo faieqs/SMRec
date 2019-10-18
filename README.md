@@ -1,6 +1,6 @@
 This project contains the data and the code for the paper called "A Context-aware Recommendation-based System for Service Composition in Smart Environments"
 
-History.csv file contains the data which was generated based on a simulation of the case study presented in the paper called 'SMARTROAD' and is structured as follows:
+invocations.csv file contains the data which was generated based on a simulation of the case study presented in the paper called 'SMARTROAD' and is structured as follows:
 
 - Users_ID : Represents the ID of the user and respects the same numbering as the WSDREAM dataset.
 
