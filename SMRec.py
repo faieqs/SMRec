@@ -18,7 +18,7 @@ def get_service_models(user_id, invocations):
     return user_service_models
 
 # read the data
-event_log = pd.read_csv('History.csv', sep=',')
+event_log = pd.read_csv('invocations.csv', sep=',')
 
 # declare threshold variable p
 p = 50
