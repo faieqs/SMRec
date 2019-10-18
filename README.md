@@ -4,7 +4,7 @@ invocations.csv file contains the data which was generated based on a simulation
 
 - Users_ID : Represents the ID of the user and respects the same numbering as the WSDREAM dataset.
 
-- Service_Model : Represents the name of the Service Model as depicted in the paper. The data contains 7 Service_Models (TrafficCongestion, RiskyVehicleSpeed, RiskyDriverHealth, RiskyDriverExperience, RiskyRoad, BadWeather, RiskyVehicleState). Only three of these service models were depicted in the paper.
+- Service_Model : Represents the name of the Service Model as depicted in the paper. The data contains 7 Service_Models (TrafficCongestion, RiskyVehicleSpeed, RiskyDriverHealth, RiskyDriverExperience, RiskyRoad, BadWeather, RiskyVehicleState). Only four of these service models were depicted in the paper.
 
 - Task_Name : Represents the name of the Task as depicted in the paper. The data contains 20 tasks (TJAW_I, ISA_E, RSS_E, IVS_I, ERP_I, ISA_I, NAAS_E, ERP_E, IVS_V, NAAS_I, ERS, RSS_V, AEVW, RWW, RSS_I, WWS, GSS_V, GSSS, GSS_I, TSS_V). Each task name is divided to two parts by the underscore character. The left part is the acronym of the task and the right part represents the level at which the task is executed by the service.
 
