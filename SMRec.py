@@ -1,5 +1,6 @@
 import pandas as pd
 import pyfpgrowth as fpg
+from tabulate import tabulate
 
 def get_service_models(user_id, invocations):
     userInvocations = invocations.groupby('Users_ID').get_group(user_id)
@@ -61,6 +62,6 @@ for uat in unique_atomic_events:
             if most_frequent_sm and ([most_frequent_sm, uat] not in r) :
                 r.append([most_frequent_sm, uat])
 print('This is the result')
-print(r)
+print(tabulate(r, headers=['Service_Model', 'Atomic_Task'], tablefmt='orgtbl'))
                         
         
